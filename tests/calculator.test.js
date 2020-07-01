@@ -1,4 +1,3 @@
-// import calc from '../js/calculator.js'
 const calculator = require('../js/calculator.js');
 
 describe('Calculator function for basico ops', () => {
