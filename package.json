@@ -1,0 +1,24 @@
+{
+  "name": "js-testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testW": "jest --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trekab/js-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trekab/js-testing-practice/issues"
+  },
+  "homepage": "https://github.com/trekab/js-testing-practice#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
