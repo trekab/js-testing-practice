@@ -1,4 +1,4 @@
-function capitalize(string){
+function capitalize(string) {
   str = string.split('');
   str[0] = str[0].toUpperCase();
   return str.join('');
