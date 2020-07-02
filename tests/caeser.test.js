@@ -1,4 +1,4 @@
-const calculator = require('../js/caeser.js');
+const caeser = require('../js/caeser.js');
 
 describe('Caeser encryption function', () => {
   test('It should encrypt a string given a string and a key', () => {
