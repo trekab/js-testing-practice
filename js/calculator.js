@@ -5,4 +5,4 @@ const calculator = {
   multiply: (a, b) => a * b,
 };
 
-export default calculator
+export default calculator;
