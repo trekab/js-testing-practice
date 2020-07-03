@@ -1,14 +1,8 @@
-const analyze = (array) => {
-  const average = array.reduce((accumulator, current) => accumulator + current) / array.length;
-  const min = Math.min(...array);
-  const max = Math.max(...array);
-  const { length } = array;
-  return {
-    average,
-    min,
-    max,
-    length,
-  };
-};
-
-module.exports = analyze;
+const analyze = (array) => ({
+  average: array.reduce((accumulator, current) => accumulator + current) / array.length,
+  min: Math.min(...array),
+  max: Math.max(...array),
+  length: array.length,
+});
+// module.exports = analyze;
+export default analyze;

@@ -1,4 +1,4 @@
-const calculator = require('../js/calculator.js');
+import calculator from '../js/calculator';
 
 describe('Calculator function for basico ops', () => {
   test('It should add 2 numbers', () => {

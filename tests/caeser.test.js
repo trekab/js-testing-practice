@@ -1,4 +1,4 @@
-const caeser = require('../js/caeser.js');
+import caeser from '../js/caeser';
 
 describe('Caeser encryption function', () => {
   test('It should encrypt a string given a string and a key', () => {

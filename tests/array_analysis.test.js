@@ -1,4 +1,4 @@
-const analyze = require('../js/array_analysis.js');
+import analyze from '../js/array_analysis';
 
 const array = [1, 2, 3, 4, 5];
 
